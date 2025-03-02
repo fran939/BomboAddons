@@ -1,0 +1,333 @@
+{
+    "obj": {
+        "Odawa": {
+            "formattedName": "§f§aOdawa",
+            "rarity": "UNCOMMON"
+        },
+        "Oringo": {
+            "formattedName": "§f§aOringo",
+            "rarity": "UNCOMMON"
+        },
+        "Hungry Hiker": {
+            "formattedName": "§f§aHungry Hiker",
+            "rarity": "UNCOMMON"
+        },
+        "Adventurer": {
+            "formattedName": "§f§aAdventurer",
+            "rarity": "UNCOMMON"
+        },
+        "Anita": {
+            "formattedName": "§f§aAnita",
+            "rarity": "UNCOMMON"
+        },
+        "Emissary Wilson": {
+            "formattedName": "§f§aEmissary Wilson",
+            "rarity": "UNCOMMON"
+        },
+        "Geonathan Greatforge": {
+            "formattedName": "§f§aGeonathan Greatforge",
+            "rarity": "UNCOMMON"
+        },
+        "Trevor": {
+            "formattedName": "§f§aTrevor",
+            "rarity": "UNCOMMON"
+        },
+        "Vex": {
+            "formattedName": "§f§aVex",
+            "rarity": "UNCOMMON"
+        },
+        "Stella": {
+            "formattedName": "§f§aStella",
+            "rarity": "UNCOMMON"
+        },
+        "Arthur": {
+            "formattedName": "§f§aArthur",
+            "rarity": "UNCOMMON"
+        },
+        "Jotraeline Greatforge": {
+            "formattedName": "§f§aJotraeline Greatforge",
+            "rarity": "UNCOMMON"
+        },
+        "Guy": {
+            "formattedName": "§f§aGuy",
+            "rarity": "UNCOMMON"
+        },
+        "Jack": {
+            "formattedName": "§f§aJack",
+            "rarity": "UNCOMMON"
+        },
+        "Duke": {
+            "formattedName": "§f§aDuke",
+            "rarity": "UNCOMMON"
+        },
+        "Friendly Hiker": {
+            "formattedName": "§f§aFriendly Hiker",
+            "rarity": "UNCOMMON"
+        },
+        "Ryu": {
+            "formattedName": "§f§aRyu",
+            "rarity": "UNCOMMON"
+        },
+        "Jamie": {
+            "formattedName": "§f§aJamie",
+            "rarity": "UNCOMMON"
+        },
+        "Emissary Ceanna": {
+            "formattedName": "§f§aEmissary Ceanna",
+            "rarity": "UNCOMMON"
+        },
+        "Royal Resident": {
+            "formattedName": "§f§9Royal Resident",
+            "rarity": "RARE"
+        },
+        "Hornum": {
+            "formattedName": "§f§aHornum",
+            "rarity": "UNCOMMON"
+        },
+        "Banker Broadjaw": {
+            "formattedName": "§f§aBanker Broadjaw",
+            "rarity": "UNCOMMON"
+        },
+        "Wizard": {
+            "formattedName": "§f§aWizard",
+            "rarity": "UNCOMMON"
+        },
+        "Liam": {
+            "formattedName": "§f§aLiam",
+            "rarity": "UNCOMMON"
+        },
+        "Emissary Fraiser": {
+            "formattedName": "§f§aEmissary Fraiser",
+            "rarity": "UNCOMMON"
+        },
+        "Lynn": {
+            "formattedName": "§f§aLynn",
+            "rarity": "UNCOMMON"
+        },
+        "Tom": {
+            "formattedName": "§f§aTom",
+            "rarity": "UNCOMMON"
+        },
+        "Farmhand": {
+            "formattedName": "§f§aFarmhand",
+            "rarity": "UNCOMMON"
+        },
+        "Tarwen": {
+            "formattedName": "§f§aTarwen",
+            "rarity": "UNCOMMON"
+        },
+        "Alchemist": {
+            "formattedName": "§f§aAlchemist",
+            "rarity": "UNCOMMON"
+        },
+        "Jacob": {
+            "formattedName": "§f§aJacob",
+            "rarity": "UNCOMMON"
+        },
+        "Andrew": {
+            "formattedName": "§f§aAndrew",
+            "rarity": "UNCOMMON"
+        },
+        "Fisherman": {
+            "formattedName": "§f§aFisherman",
+            "rarity": "UNCOMMON"
+        },
+        "Emissary Carlton": {
+            "formattedName": "§f§aEmissary Carlton",
+            "rarity": "UNCOMMON"
+        },
+        "Lumber Jack": {
+            "formattedName": "§f§aLumber Jack",
+            "rarity": "UNCOMMON"
+        },
+        "Shaggy": {
+            "formattedName": "§f§aShaggy",
+            "rarity": "UNCOMMON"
+        },
+        "Felix": {
+            "formattedName": "§f§aFelix",
+            "rarity": "UNCOMMON"
+        },
+        "Librarian": {
+            "formattedName": "§f§aLibrarian",
+            "rarity": "UNCOMMON"
+        },
+        "Fear Mongerer": {
+            "formattedName": "§f§aFear Mongerer",
+            "rarity": "UNCOMMON"
+        },
+        "Mason": {
+            "formattedName": "§f§aMason",
+            "rarity": "UNCOMMON"
+        },
+        "Dusk": {
+            "formattedName": "§f§aDusk",
+            "rarity": "UNCOMMON"
+        },
+        "Farmer Jon": {
+            "formattedName": "§f§aFarmer Jon",
+            "rarity": "UNCOMMON"
+        },
+        "Terry": {
+            "formattedName": "§f§aTerry",
+            "rarity": "UNCOMMON"
+        },
+        "Weaponsmith": {
+            "formattedName": "§f§aWeaponsmith",
+            "rarity": "UNCOMMON"
+        },
+        "Leo": {
+            "formattedName": "§f§aLeo",
+            "rarity": "UNCOMMON"
+        },
+        "Sargwyn": {
+            "formattedName": "§f§aSargwyn",
+            "rarity": "UNCOMMON"
+        },
+        "Plumber Joe": {
+            "formattedName": "§f§aPlumber Joe",
+            "rarity": "UNCOMMON"
+        },
+        "Xalx": {
+            "formattedName": "§f§aXalx",
+            "rarity": "UNCOMMON"
+        },
+        "Rhys": {
+            "formattedName": "§f§aRhys",
+            "rarity": "UNCOMMON"
+        },
+        "Gimley": {
+            "formattedName": "§f§aGimley",
+            "rarity": "UNCOMMON"
+        },
+        "Grandma Wolf": {
+            "formattedName": "§f§9Grandma Wolf",
+            "rarity": "RARE"
+        },
+        "Gold Forger": {
+            "formattedName": "§f§9Gold Forger",
+            "rarity": "RARE"
+        },
+        "Rusty": {
+            "formattedName": "§f§9Rusty",
+            "rarity": "RARE"
+        },
+        "Tammy": {
+            "formattedName": "§f§9Tammy",
+            "rarity": "RARE"
+        },
+        "Gwendolyn": {
+            "formattedName": "§f§9Gwendolyn",
+            "rarity": "RARE"
+        },
+        "Shifty": {
+            "formattedName": "§f§9Shifty",
+            "rarity": "RARE"
+        },
+        "Sirius": {
+            "formattedName": "§f§6Sirius",
+            "rarity": "LEGENDARY"
+        },
+        "Bartender": {
+            "formattedName": "§f§9Bartender",
+            "rarity": "RARE"
+        },
+        "Iron Forger": {
+            "formattedName": "§f§9Iron Forger",
+            "rarity": "RARE"
+        },
+        "Lazy Miner": {
+            "formattedName": "§f§9Lazy Miner",
+            "rarity": "RARE"
+        },
+        "Lumina": {
+            "formattedName": "§f§9Lumina",
+            "rarity": "RARE"
+        },
+        "Queen Mismyla": {
+            "formattedName": "§f§9Queen Mismyla",
+            "rarity": "RARE"
+        },
+        "Dalbrek": {
+            "formattedName": "§f§9Dalbrek",
+            "rarity": "RARE"
+        },
+        "Puzzler": {
+            "formattedName": "§f§9Puzzler",
+            "rarity": "RARE"
+        },
+        "Zog": {
+            "formattedName": "§f§9Zog",
+            "rarity": "RARE"
+        },
+        "Clerk Seraphine": {
+            "formattedName": "§f§6Clerk Seraphine",
+            "rarity": "LEGENDARY"
+        },
+        "Emissary Sisko": {
+            "formattedName": "§f§9Emissary Sisko",
+            "rarity": "RARE"
+        },
+        "Fragilis": {
+            "formattedName": "§f§9Fragilis",
+            "rarity": "RARE"
+        },
+        "Jerry": {
+            "formattedName": "§f§6Jerry",
+            "rarity": "LEGENDARY"
+        },
+        "Tia the Fairy": {
+            "formattedName": "§f§9Tia the Fairy",
+            "rarity": "RARE"
+        },
+        "Seymour": {
+            "formattedName": "§f§9Seymour",
+            "rarity": "RARE"
+        },
+        "Old Man Garry": {
+            "formattedName": "§f§9Old Man Garry",
+            "rarity": "RARE"
+        },
+        "Madame Eleanor Q. Goldsworth III": {
+            "formattedName": "§f§6Madame Eleanor Q. Goldsworth III",
+            "rarity": "LEGENDARY"
+        },
+        "Pete": {
+            "formattedName": "§f§9Pete",
+            "rarity": "RARE"
+        },
+        "Maeve": {
+            "formattedName": "§f§dMaeve",
+            "rarity": "MYTHIC"
+        },
+        "Vinyl Collector": {
+            "formattedName": "§f§9Vinyl Collector",
+            "rarity": "RARE"
+        },
+        "Pest Wrangler": {
+            "formattedName": "§f§aPest Wrangler",
+            "rarity": "UNCOMMON"
+        },
+        "Beth": {
+            "formattedName": "§f§6Beth",
+            "rarity": "LEGENDARY"
+        },
+        "Pest Wrangler?": {
+            "formattedName": "§f§6Pest Wrangler?",
+            "rarity": "LEGENDARY"
+        },
+        "Ravenous Rhino": {
+            "formattedName": "§f§dRavenous Rhino",
+            "rarity": "MYTHIC"
+        },
+        "Spaceman": {
+            "formattedName": "§f§cSpaceman",
+            "rarity": "SPECIAL"
+        },
+        "Baker": {
+            "formattedName": "§f§6Baker",
+            "rarity": "LEGENDARY"
+        }
+    },
+    "savedAt": 1740940843549
+}

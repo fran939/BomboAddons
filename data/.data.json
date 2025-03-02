@@ -1,0 +1,295 @@
+{
+    "inventoryButtons": {
+        "9": {
+            "textureName": "fifthmasterstar",
+            "command": "eq"
+        }
+    },
+    "commandAliases": {
+        "sc": {
+            "command": "patcher sendcoords"
+        },
+        "m1": {
+            "command": "joindungeon master_catacombs_floor_one"
+        },
+        "m2": {
+            "command": "joindungeon master_catacombs_floor_two"
+        },
+        "m3": {
+            "command": "joindungeon master_catacombs_floor_three"
+        },
+        "m4": {
+            "command": "joindungeon master_catacombs_floor_four"
+        },
+        "m5": {
+            "command": "joindungeon master_catacombs_floor_five"
+        },
+        "m6": {
+            "command": "joindungeon master_catacombs_floor_six"
+        },
+        "m7": {
+            "command": "joindungeon master_catacombs_floor_seven"
+        },
+        "e": {
+            "command": "joindungeon catacombs_entrance"
+        },
+        "f1": {
+            "command": "joindungeon catacombs_floor_one"
+        },
+        "f2": {
+            "command": "joindungeon catacombs_floor_two"
+        },
+        "f3": {
+            "command": "joindungeon catacombs_floor_three"
+        },
+        "f4": {
+            "command": "joindungeon catacombs_floor_four"
+        },
+        "f5": {
+            "command": "joindungeon catacombs_floor_five"
+        },
+        "f6": {
+            "command": "joindungeon catacombs_floor_six"
+        },
+        "f7": {
+            "command": "joindungeon catacombs_floor_seven"
+        },
+        "isle": {
+            "command": "warp isle"
+        },
+        "end": {
+            "command": "warp end"
+        },
+        "barn": {
+            "command": "tptoplot barn"
+        },
+        "ba": {
+            "command": "tptoplot barn"
+        },
+        "ga": {
+            "command": "warp garden"
+        },
+        "re": {
+            "command": "instancerequeue"
+        },
+        "af": {
+            "command": "attributemenu"
+        },
+        "mi": {
+            "command": "craftedgenerators"
+        },
+        "v": {
+            "command": "visit"
+        },
+        "or": {
+            "command": "managebazaarorders"
+        },
+        "mat": {
+            "command": "viewstash material"
+        },
+        "item": {
+            "command": "viewstash item"
+        },
+        "it": {
+            "command": "viewstash item"
+        },
+        "psa": {
+            "command": "p setting allinvite"
+        },
+        "t1": {
+            "command": "joindungeon KUUDRA_NORMAL"
+        },
+        "t2": {
+            "command": "joindungeon KUUDRA_HOT"
+        },
+        "t3": {
+            "command": "joindungeon KUUDRA_BURNING"
+        },
+        "t4": {
+            "command": "joindungeon KUUDRA_FIERY"
+        },
+        "t5": {
+            "command": "joindungeon KUUDRA_INFERNAL"
+        }
+    },
+    "keyShortcuts": {
+        "19": {
+            "msg": "/storage"
+        },
+        "21": {
+            "msg": "/ah"
+        },
+        "24": {
+            "msg": "/or"
+        },
+        "48": {
+            "msg": "/bz"
+        },
+        "200": {
+            "msg": "/equipment"
+        },
+        "208": {
+            "msg": "/wardrobe"
+        },
+        "-98": {
+            "msg": "/pet"
+        }
+    },
+    "messageTitles": {},
+    "cancelMessage": {
+        "Party > [MVP++] StopSelling: ██████╗░░█████╗░░█████╗░░██████╗░░░░╚════██╗██╔══██╗██╔══██╗██╔═══╝░█╗░░░█████╔╝██║░░██║██║░░██║╚█████╗░███░░╚═══██╗██║░░██║██║░░██║░╚═══██╗╚█╝░██████╔╝╚█████╔╝╚█████╔╝██████╔╝░░░░╚═════╝░░╚════╝░░╚════╝░╚═════╝░░░░░": 0,
+        "Party > [MVP++] StopSelling: ゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜ ゛゜゛████゜████゛████゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛ ゜゛゜゛゜゛█゛゜゛゜█゜█゜゛█゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜ ゛゜゛゜██゛゜゛゜█゜゛█゛゛█゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛ ゜゛゜█゜゛゜゛゜█゜゛゜█゜゛█゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜ ゛゜゛████゜゛█゛゜゛████゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛ ゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゛゜゜": 0
+    },
+    "auctionsClicked": [],
+    "auctionsStrings": [],
+    "bazaarClicked": [],
+    "bazaarStrings": [],
+    "chatWaypointNames": [],
+    "lockedSlots": {},
+    "equipments": [],
+    "clickedWoodenButtons": [],
+    "partyCommandList": [],
+    "toggleSprint": false,
+    "apiCheckTime": null,
+    "firstTime": true,
+    "runSplits": {
+        "x": 40,
+        "y": 312,
+        "scale": 1
+    },
+    "cryptsDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "deathsDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "milestoneDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "puzzlesDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "croesusProfit": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "dungeonProfit": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "waterBoardDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "powderDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "comissionsDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "gardenDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "pestsDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "visitorProfit": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "kuudrSplitsDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "slayerBossDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "bonzoMaskInvincibilityTimer": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "phoenixInvincibilityTimer": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "championDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "armorDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "worldAgeDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "systemDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "ragaxecd": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "searchBar": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "cultivatingDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "inventoryhudDisplay": {
+        "x": 753,
+        "y": 428,
+        "scale": 1
+    },
+    "compactDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "drillFuelDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "inventoryHistoryDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    }
+}

@@ -1,0 +1,556 @@
+[
+    {
+        "category": "Dungeons",
+        "settings": [
+            {
+                "type": 6,
+                "name": "boxStarMobs",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "showSecretsClicked",
+                "value": false
+            },
+            {
+                "type": 5,
+                "name": "showSecretsClickedColor",
+                "value": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            {
+                "type": 6,
+                "name": "dungeonRunSplits",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "dungeonProfitDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "showCroesusClicks",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "croesusProfitDisplay",
+                "value": true
+            },
+            {
+                "type": 7,
+                "name": "croesusProfitMode",
+                "value": 0
+            },
+            {
+                "type": 6,
+                "name": "croesusProfitSort",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "showExtraStats",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "secretsSound",
+                "value": false
+            },
+            {
+                "type": 7,
+                "name": "secretsSoundType",
+                "value": 0
+            },
+            {
+                "type": 6,
+                "name": "puzzleRoomScanner",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "blazeSolver",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "blazeSolverDone",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "blazeSolverLine",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "blazeSolverHide",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "waterBoardSolver",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "waterBoardSolverDisplay",
+                "value": true
+            },
+            {
+                "type": 7,
+                "name": "waterBoardChannelMode",
+                "value": 0
+            },
+            {
+                "type": 4,
+                "name": "waterBoardChannelURL",
+                "value": "https://raw.githubusercontent.com/Desco1/WaterSolver/master/src/main/resources/watertimes.json"
+            },
+            {
+                "type": 2,
+                "name": "changewaterboardtutorial"
+            },
+            {
+                "type": 6,
+                "name": "boulderSolver",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "creeperBeamsSolver",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "creeperBeamsSolverLine",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "cryptsDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "milestoneDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "triviaQuizSolver",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "puzzlesDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "deathsDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "threeWeirdosSolver",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "removeDamageTag",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "sendMimicDead",
+                "value": true
+            },
+            {
+                "type": 4,
+                "name": "mimicDeadMessage",
+                "value": "Mimic Killed!"
+            },
+            {
+                "type": 6,
+                "name": "hideNoneStarredTags",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "Kuudra",
+        "settings": [
+            {
+                "type": 6,
+                "name": "cratesWaypoints",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "kuudraSplits",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "Slayers",
+        "settings": [
+            {
+                "type": 6,
+                "name": "slayerBossTime",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "slayerBossSpawnTime",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "slayerBossDisplay",
+                "value": false
+            }
+        ]
+    },
+    {
+        "category": "Misc",
+        "settings": [
+            {
+                "type": 6,
+                "name": "ragnarokAxeTimer",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "blockOverlay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "blockOverlayFill",
+                "value": false
+            },
+            {
+                "type": 5,
+                "name": "blockOverlayColor",
+                "value": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            {
+                "type": 6,
+                "name": "bonzoMaskInvincibilityTimer",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "phoenixInvincibilityTimer",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "searchBar",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "championxpDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "copyChat",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "inventoryButtons",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "partyCommands",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "etherwarpOverlay",
+                "value": false
+            },
+            {
+                "type": 5,
+                "name": "etherwarpOverlayColor",
+                "value": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            {
+                "type": 6,
+                "name": "middleClickGui",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "renderItemRarity",
+                "value": false
+            },
+            {
+                "type": 7,
+                "name": "renderItemRarityShape",
+                "value": 0
+            },
+            {
+                "type": 1,
+                "name": "renderItemRarityOpacity",
+                "value": 0.8
+            },
+            {
+                "type": 6,
+                "name": "chatWaypoint",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "chatWaypointParty",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "chatWaypointCoop",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "chatWaypointAll",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "slotLocking",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "slotLockingDisplay",
+                "value": true
+            },
+            {
+                "type": 1,
+                "name": "slotLockingDisplayOpacity",
+                "value": 0.4
+            },
+            {
+                "type": 6,
+                "name": "noCursorReset",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "equipmentsDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "armorDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "armorDisplayBackground",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "armorDisplayBarrier",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "systemTimeDisplay",
+                "value": false
+            },
+            {
+                "type": 7,
+                "name": "systemTimeDisplayColor",
+                "value": 0
+            },
+            {
+                "type": 6,
+                "name": "noDeathAnimation",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "noLightning",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "removeFrontView",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "worldAgeDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "rabbitHelper",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "enchantedBookLevel",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "enchantedBookAbbreviation",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "enchantedBookAbbreviationColor",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "attributeShardLevel",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "attributeShardAbbreviation",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "attributeShardAbbreviationColor",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "hideEmptyTooltip",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "renderItems",
+                "value": false
+            },
+            {
+                "type": 7,
+                "name": "renderItemsMode",
+                "value": 0
+            },
+            {
+                "type": 6,
+                "name": "cultivatingDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "inventoryHudDisplay",
+                "value": true
+            },
+            {
+                "type": 6,
+                "name": "compactDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "drillFuelDisplay",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "noEndermanTeleport",
+                "value": false
+            },
+            {
+                "type": 6,
+                "name": "inventoryHistoryDisplay",
+                "value": false
+            },
+            {
+                "type": 1,
+                "name": "inventoryHistoryTime",
+                "value": 2
+            }
+        ]
+    },
+    {
+        "category": "General",
+        "settings": [
+            {
+                "type": 9,
+                "name": "CreatorText"
+            },
+            {
+                "type": 2,
+                "name": "skycrypt"
+            },
+            {
+                "type": 2,
+                "name": "plancke"
+            },
+            {
+                "type": 2,
+                "name": "mainEditGui"
+            }
+        ]
+    },
+    {
+        "category": "UI",
+        "settings": [
+            {
+                "type": 2,
+                "name": "applybtn"
+            },
+            {
+                "type": 5,
+                "name": "backgroundColor",
+                "value": [
+                    0,
+                    0,
+                    0,
+                    80
+                ]
+            },
+            {
+                "type": 5,
+                "name": "descriptionBackgroundColor",
+                "value": [
+                    0,
+                    0,
+                    0,
+                    80
+                ]
+            },
+            {
+                "type": 5,
+                "name": "dividerBackgroundColor",
+                "value": [
+                    0,
+                    0,
+                    0,
+                    80
+                ]
+            }
+        ]
+    }
+]
