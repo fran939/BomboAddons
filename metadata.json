@@ -1,0 +1,19 @@
+{
+  "name": "BomboAddons",
+  "creator": "bomboclas",
+  "description": "bumbuclat",
+  "version": "1.0.0",
+  "entry": "index.js",
+  "changelog": "",
+  "requires": [
+    "requestV2",
+    "PromiseV2",
+    "PogData",
+    "Atomx",
+    "DocGuiLib",
+    "Elementa",
+    "KeybindFix",
+    "Amaterasu",
+    "axios"
+  ]
+}
