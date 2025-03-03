@@ -49,6 +49,8 @@ function numberToWords(num) {
     return words[num - 1];
 }
 
+
+
 registerWhen(register("chat", (player, command) => {
   player = player.removeFormatting().substring(player.indexOf(" ") + 1).replace(/[^A-Za-z0-9_]/g, "");
   let CommandMsg;
@@ -61,7 +63,7 @@ registerWhen(register("chat", (player, command) => {
     case "coord":
     case "loc":
     case "location":
-case "coords":
+    case "coords":
     ChatLib.command(`pc x: ${ ~~Player.getX() }, y: ${ ~~Player.getY() }, z: ${ ~~Player.getZ() }`); break;
     case "server":
     case "area":
@@ -235,7 +237,7 @@ case "coords":
     CommandMsg = `pc 106 tunning speed `; break;
     case "ping":
     const pingnum = Math.floor(Math.random() * 2500) + 120;
-    CommandMsg = `pc ping: ${pingnum} seconds`; break;
+    CommandMsg = `pc ping: ${pingnum} ms`; break;
     case "tps":
     const tpsNum = Math.floor(Math.random() * 10) + 1;
     const tpsWord = numberToWords(tpsNum);
@@ -283,24 +285,100 @@ case "coords":
     case "barn":
     CommandMsg = `tptoplot barn`; break;
     
-    /*case "yfr":
-    CommandMsg = `pc !dt ${ player }`;break;
-    case "yfrs":
-    CommandMsg = `pc !dt ${ player }`;break;
-    case "tyfr":
-    CommandMsg = `pc !dt ${ player }`;break;
-    case "tyfrs":
-    CommandMsg = `pc !dt ${ player } `;break;*/
+    case "mem":
+      let memoryUsage = parseFloat(Client.getMemoryUsage()); // Extract number
+      ChatLib.command(`pc ${memoryUsage}%/10240MB Memory Usage.`);
+      return; // Stop execution to prevent sending /undefined
+  
 
-    
+
 
             
     default: return;
     }
     ChatLib.command(CommandMsg);
   }, 300);
-}).setCriteria(/Guild|Party > (.+): [7.t?!/](.+)/), () => true);
+  if (CommandMsg) {
+    ChatLib.command(CommandMsg);
+}
 
+}).setCriteria(/Guild|Party > (.+): [7.t?!/](.+)/), () => true);
+register("command", () => {
+  ChatLib.command("neu", true);
+}).setName("openneu");
+
+
+function numberToWords(num) {
+  const words = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+                 "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"];
+  return words[num - 1] || num;
+}
+
+
+function executeCommand(player, command, messageSource) {
+  let CommandMsg;
+  command = command.toLowerCase();
+  
+  setTimeout(() => {
+      switch (command) {
+          case "time":
+              CommandMsg = new Date().toLocaleTimeString();
+              break;
+
+          case "coords":
+          case "coord":
+          case "loc":
+          case "location":
+              CommandMsg = `x: ${~~Player.getX()}, y: ${~~Player.getY()}, z: ${~~Player.getZ()}`;
+              break;
+          case "ping":
+              const pingnum = Math.floor(Math.random() * 2500) + 120;
+              CommandMsg = `ping: ${pingnum} ms`;
+              break;
+          case "freaky":
+              const freakyPercent = Math.floor(Math.random() * 100) + 1;
+              CommandMsg = `${player} is ${freakyPercent}% freaky!`;
+              break;
+          case "tps":
+              const tpsNum = Math.floor(Math.random() * 10) + 1;
+              const tpsWord = numberToWords(tpsNum);
+              CommandMsg = `at least ${tpsWord} tps`;
+              break;
+          case "help":
+              CommandMsg = "(7,.?!-/)time, coords, ping, freaky, warp, ptme, gohub, island, visitme";
+              break;
+          default:
+              return;
+      }
+      
+      if (CommandMsg) {
+          let chatCommand;
+          if (messageSource === "Party") {
+              chatCommand = `pc ${CommandMsg}`;
+          } else if (messageSource === "Guild") {
+              chatCommand = `gc ${CommandMsg}`;
+          } else {
+              chatCommand = `w ${player} ${CommandMsg}`;
+          }
+          ChatLib.command(chatCommand);
+      }
+  }, 300);
+}
+
+register("chat", (rank, player, command) => {
+  player = player.removeFormatting().replace(/[^A-Za-z0-9_]/g, "");
+  executeCommand(player, command, "Party");
+}).setCriteria("Party > ${rank} ${player}: !${command}");
+
+register("chat", (rank, player, command) => {
+  player = player.removeFormatting().replace(/[^A-Za-z0-9_]/g, "");
+  executeCommand(player, command, "Guild");
+}).setCriteria("Guild > ${rank} ${player}: !${command}");
+
+register("chat", (rank, player, command) => {
+  player = player.removeFormatting().replace(/[^A-Za-z0-9_]/g, "");
+  executeCommand(player, command, "Private");
+}).setCriteria("From ${rank} ${player}: !${command}");
 
 const items = [
     "Ender Pearl"
@@ -313,13 +391,29 @@ const items = [
     cancel(event);
   }), () => true);
 
-register("chat", (username, message, event) => {
+  register("chat", (username, message, event) => {
     const args = message.split(" ");
-    if (args[0] === "!kick45" && args.length === 2) {
-        const inviteName = args[1];
-        ChatLib.command(`p kick ${inviteName}`);
+    if (args[0] === "!kick45" && args.length >= 2) {
+        const targetName = args[1];
+        const reason = args.slice(2).join(" ") || "No reason provided"; // Si no hay motivo, pone un mensaje predeterminado
+        ChatLib.command(`pc Kicking ${targetName}: ${reason}`);
+        setTimeout(() => {
+            ChatLib.command(`p kick ${targetName}`);
+        }, 300);
     }
 }).setCriteria("Party > ${username}: ${message}");
+
+register("chat", (username, message, event) => {
+    const args = message.split(" ");
+    if (args[0] === "!kick45" && args.length >= 2) {
+        const targetName = args[1];
+        const reason = args.slice(2).join(" ") || "No reason provided"; // Si no hay motivo, pone un mensaje predeterminado
+        ChatLib.command(`pc From ${username}: ${message}`);
+        setTimeout(() => {
+            ChatLib.command(`p kick ${targetName}`);
+        }, 200);
+    }
+}).setCriteria("From ${username}: ${message}");
 
 register("chat", (username, message, event) => {
   const args = message.split(" ");
@@ -443,7 +537,7 @@ register('step', () => {
 
 
 //GRANDE??
-
+/*
 register("renderEntity", (entity) => {
   if (entity.getName() !== Mort) return
   [x, y, z] = Settings.playerScale.split("2")
@@ -456,3 +550,4 @@ register("postRenderEntity", (entity) => {
   Tessellator.popMatrix()
 })
 
+*/

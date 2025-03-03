@@ -363,7 +363,15 @@ register("chat", (rank, username, message, event) => {
   }
 }).setCriteria("Party > [${rank}] ${username}: ${message}");
 
-
+register("chat", (rank, username, message, event) => {
+  if (message.toLowerCase() === "!sp") {
+      const commandList = commands.map(cmd => `${cmd}`).join(", ");
+      setTimeout(() => {
+        ChatLib.command(`w ${username} Available commands: ${commandList}`);
+      }, 100);
+      
+  }
+}).setCriteria("From [${rank}] ${username}: ${message}");
 //LAST BZ/AH?
 /*
 let lastBZItem = null;
@@ -493,7 +501,7 @@ register("command", () => {
     if (lastBP !== null) {
         ChatLib.command(`bp ${lastBP}`);
     } else {
-        ChatLib.chat("&6Bombo &c» &cNo last Backpack opened.");
+        ChatLib.command("bp 15");
     }
 }).setName("lastbp", true);
 
@@ -502,7 +510,7 @@ register("command", () => {
     if (lastEC !== null) {
         ChatLib.command(`ec ${lastEC}`);
     } else {
-        ChatLib.chat("&6Bombo &c» &cNo last Ender Chest opened.");
+        ChatLib.command("ec");
     }
 }).setName("lastec", true);
 
@@ -573,3 +581,18 @@ register('chat', (username, event) => {
 }).setCriteria(/^(?:(?:Guild|Party|Co-op|From|To) ?(?:>)?? |(?:(?:\[:v:\] )?(?: \+ )?(?:\[(?:[^\s]+)+\] )??))??(?:. )??(?:\[\w{3,}\+{0,2}\] )??(\w{1,16})(?: \[\w{1,6}\])??: .*ah.*$/i)
 
 
+
+let toggled = false;
+
+register("tick", () => {
+    if (toggled) {
+        ChatLib.chat(Client.getMemoryUsage() + "% Memory Usage.");
+    }
+});
+
+register("command", () => {
+    toggled = true;
+    setTimeout(() => {
+        toggled = false;
+    }, 500); 
+}).setName("mem").setAliases("memory");

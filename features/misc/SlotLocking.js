@@ -11,7 +11,7 @@ import { TextHelper } from "../../shared/TextHelper"
 
 const lockKeybind = new Keybind("§fLock Slot", Keyboard.KEY_NONE, "BomboAddons")
 const bindingKeybind = new Keybind("§fBind Slots", Keyboard.KEY_NONE, "BomboAddons")
-const lockImg = Image.fromUrl("https://raw.githubusercontent.com/BiscuitDevelopment/SkyblockAddons/refs/heads/main/src/main/resources/assets/skyblockaddons/lock.png")
+const lockImg = Image.fromUrl("https://raw.githubusercontent.com/fran939/BomboAddons/main/features/sound/lock.png")
 const savedSlots = new Map(Object.entries(Persistence.data.lockedSlots))
 
 let hasDungeonStarted = false

@@ -159,7 +159,7 @@
             {
                 "type": 6,
                 "name": "threeWeirdosSolver",
-                "value": false
+                "value": true
             },
             {
                 "type": 6,
@@ -339,7 +339,7 @@
             {
                 "type": 6,
                 "name": "slotLocking",
-                "value": true
+                "value": false
             },
             {
                 "type": 6,
@@ -349,7 +349,7 @@
             {
                 "type": 1,
                 "name": "slotLockingDisplayOpacity",
-                "value": 0.4
+                "value": 1
             },
             {
                 "type": 6,

@@ -565,7 +565,7 @@ register("guiKey", (char, key, gui, event) => {
         }
     }
 });
-
+/*
 register("guiKey", (char, key, gui, event) => {
     if (!Player.getContainer()) return;
     
@@ -576,7 +576,7 @@ register("guiKey", (char, key, gui, event) => {
         ChatLib.command("managebazaarorders"); // Runs command only if chat is NOT open
     }
 });
-
+*/
 
 
 
@@ -622,3 +622,57 @@ register("guiKey", (char, key, gui, event) => {
     }
 });
 
+
+
+//PV ON PFINDER
+register("guiKey", (char, keyCode, gui, event) => {
+    if (!gui) return;
+    
+    const container = Player.getContainer();
+    if (!container) return;
+
+    // Get hovered slot
+    const slot = Client.currentGui.getSlotUnderMouse();
+    if (!slot) return;
+
+    // Get item in the slot
+    const item = slot.getItem();
+    if (!item) return;
+
+    // Get item name
+    const itemName = item.getName().removeFormatting();
+    if (!itemName.includes("'s Party")) return;
+
+    // Get item lore
+    const lore = item.getLore();
+    if (!lore || lore.length === 0) return;
+
+    // Extract names from "Members:" section
+    let membersStart = lore.findIndex(line => line.includes("Members:"));
+    if (membersStart === -1) return;
+
+    let members = [];
+    for (let i = membersStart + 1; i < lore.length; i++) {
+        let line = lore[i].removeFormatting().trim();
+        if (line === "" || line.toLowerCase().includes("empty") || !line.includes(":")) continue;
+
+        let username = line.split(":")[0].trim();
+        members.push(username);
+    }
+
+    if (members.length === 0) return;
+
+    // Map keyCode to index (1 = first member, etc.)
+    let index = keyCode - 2;
+    if (index < 0 || index >= members.length) return;
+
+    const selectedUser = members[index];
+    if (!selectedUser) return;
+
+    // Execute /pv command
+    ChatLib.chat(`&0[&4Bombo&0]&6 Opening &b${selectedUser}'s &6profile...`);
+    ChatLib.command(`pv ${selectedUser}`, true);
+
+    // Cancel the event to prevent slot movement
+    cancel(event);
+});

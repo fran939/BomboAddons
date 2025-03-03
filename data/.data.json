@@ -145,7 +145,16 @@
     "bazaarClicked": [],
     "bazaarStrings": [],
     "chatWaypointNames": [],
-    "lockedSlots": {},
+    "lockedSlots": {
+        "18": 36,
+        "25": 43,
+        "28": 37,
+        "29": 38,
+        "30": 39,
+        "31": 40,
+        "32": 41,
+        "34": 43
+    },
     "equipments": [],
     "clickedWoodenButtons": [],
     "partyCommandList": [],
